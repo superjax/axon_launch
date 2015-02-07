@@ -1,0 +1,6 @@
+<launch>
+
+  <!-- DEMO RGB-D -->
+  <include file="$(find demo_rgbd)/demo_rgbd_headless.launch"/>
+
+</launch>
