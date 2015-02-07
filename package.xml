@@ -1,0 +1,17 @@
+<package>
+  <name>relative_nav_launch</name>
+  <version>0.0.0</version>
+  <description>
+    This package holds the launch files for the axon project 
+  </description>
+
+  <maintainer email="james.s.jackson@byu.edu">James Jackson</maintainer>
+  <license>TODO</license>
+
+  <url>TODO</url>
+
+  <author email="james.s.jackson@byu.edu">Daniel Koch</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
