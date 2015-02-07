@@ -1,6 +1,12 @@
 <launch>
 
-  <!-- DEMO RGB-D -->
-  <include file="$(find demo_rgbd)/demo_rgbd_headless.launch"/>
+  <arg name="headless" default="true" />
+  <arg name="image_transport" default="compressed" />
+
+  <!-- DEMO RGBD Node -->
+  <include file="$(find demo_rgbd)/demo_rgbd.launch">
+    <arg name="image_transport" value="$(arg image_transport)" />
+    <arg name="headless" value="$(arg headless)" />
+  </include>
 
 </launch>

@@ -1,0 +1,15 @@
+<launch>
+
+  <arg name="headless" default="false" />
+  <arg name="image_transport" default="theora" />
+
+  <!-- Client -->
+  <include file="$(find axon_launch)/launch/vo_client.launch" />
+
+  <!-- Server -->  
+  <include file="$(find axon_launch)/launch/vo_server.launch">
+    <arg name="headless" value="$(arg headless)" />
+    <arg name="image_transport" value="$(arg image_transport)" />
+  </include>
+
+</launch>

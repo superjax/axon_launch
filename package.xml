@@ -1,5 +1,5 @@
 <package>
-  <name>relative_nav_launch</name>
+  <name>axon_launch</name>
   <version>0.0.0</version>
   <description>
     This package holds the launch files for the axon project 
